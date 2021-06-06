@@ -9,8 +9,8 @@ function Navigation() {
   return (
     <NavigationContainer>
       {/* <RootStackNavigator /> */}
-      {/* <MyDrawer /> */}
-      <MyTabs />
+      <MyDrawer />
+      {/* <MyTabs /> */}
     </NavigationContainer>
   )
 }

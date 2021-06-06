@@ -16,7 +16,7 @@ const HomeScreen = ({navigation}: any) => {
     return (
         <View style={styles.container}>
 
-            <Text onPress={() => navigation.navigate('About')} style={{ color: 'blue'}}>About</Text>
+            <Text onPress={() => navigation.toggleDrawer()} style={{ color: 'blue'}}>Open Drawer</Text>
             <Text>Welcome to Expo App!</Text>
             <Text>Count: {count}</Text>
             <StyledButton btnName="+" clicked={handleIncrementClicked} />
